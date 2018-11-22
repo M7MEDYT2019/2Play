@@ -12,7 +12,6 @@ client.on('message', message => {
 });
 
 const botSettings = require("./config.json"); // تم تتطوير البوت من الصفر By : Kahrba
-const Discord = require("discord.js");
 const axios = require("axios");
 const yt = require("ytdl-core");
 const YouTube = require("simple-youtube-api");
