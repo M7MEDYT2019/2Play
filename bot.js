@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
- const prefix = ".";
+ const prefix = "2";
 client.on('ready', () => {
     console.log('I am ready!');
 });
@@ -24,7 +24,7 @@ const fetchVideoInfo = require("youtube-info");
 const initcmd = botSettings.initcmd;
 const ytApiKey = botSettings.ytApiKey;
 const youtube = new YouTube(ytApiKey);
-const botkahrba= ['ID']; // الايدي بتاعك انتا ووالادارة
+const botkahrba= ['306464381775118336']; // الايدي بتاعك انتا ووالادارة
 // By : Kahrba. || تم التطوير من قبل كههربا
 const bot = new Discord.Client({
 	disableEveryone: true
